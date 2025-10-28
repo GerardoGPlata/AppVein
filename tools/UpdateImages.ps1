@@ -62,7 +62,7 @@ function New-ImageWithPadding {
 
 $appIconSource = Join-Path $PSScriptRoot '..\Resources\AppIcon\appicon-source.png'
 $appIconOutput = Join-Path $PSScriptRoot '..\Resources\AppIcon\appicon.png'
-New-ImageWithPadding -SourcePath $appIconSource -DestinationPath $appIconOutput -CanvasSize 1024 -Scale 0.58 -BackgroundColor ([System.Drawing.Color]::FromArgb(0,0,0,0))
+New-ImageWithPadding -SourcePath $appIconSource -DestinationPath $appIconOutput -CanvasSize 1024 -Scale 0.58 -BackgroundColor ([System.Drawing.Color]::FromArgb(0xFF,0x32,0x34,0x34))
 
 $splashSource = Join-Path $PSScriptRoot '..\Resources\Splash\splash-source.png'
 $splashOutput = Join-Path $PSScriptRoot '..\Resources\Splash\splashlogo.png'
